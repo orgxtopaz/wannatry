@@ -1,0 +1,236 @@
+body{
+    color: black;
+    background-color: black;
+    
+    
+}
+
+.skin-light .navbar.navbar-transparent:not(.top-nav-collapse) {
+    background-color: white;
+    position: static;
+   
+}
+
+
+.navbar.navbar-light .navbar-toggler-icon {
+   
+    background-color: white;
+}
+
+.skin-light .navbar.navbar-transparent:not(.top-nav-collapse) .btn-navbar[class*="btn-outline-"] {
+    color: #020202 !important;
+    background-color: transparent !important;
+    border: 2px solid #fff !important;
+}
+
+.skin-light .navbar.navbar-transparent .navbar-nav .nav-item .nav-link {
+    color: black;
+}
+
+
+
+/* TRENDING SHOES */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
+.bbb_advs {
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  
+}
+
+.bbb_adv {
+    width: 100%;
+    height: 180px;
+    border: solid 1px #e8e8e8;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.bbb_adv_content {
+    padding-left: 30px
+}
+
+.bbb_adv_subtitle {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 26px
+}
+
+.bbb_adv_title a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0e8ce4;
+}
+
+.bbb_adv_title a:hover {
+    color: #0e8ce4
+}
+
+.bbb_adv_title_2 a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0e8ce4
+}
+
+.bbb_adv_title_2 a:hover {
+    opacity: 0.8
+}
+
+.bbb_adv_text {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 14px
+}
+
+.bbb_adv_image {
+    width: 178px;
+    height: 100%
+}
+
+.bbb_adv_image img {
+    display: block;
+    max-width: 100%
+}
+
+/* FOOTER */
+
+footer{
+    bottom:0;
+}
+
+
+/* HOME SIDEBAR */
+
+
+.sidebar-container {
+    
+      width: 356px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #1a1a1a;
+    color: #fff;
+
+    position: static;
+   
+   
+  }
+
+
+  
+  .content-container {
+    padding-top: 20px;
+    
+  }
+  
+  .sidebar-logo {
+    padding: 10px 15px 10px 30px;
+    font-size: 20px;
+    background-color: #2574A9;
+  }
+  
+  .sidebar-navigation {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    position: static;
+  }
+  
+  .sidebar-navigation li {
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    line-height: 20px;
+  }
+  
+  .sidebar-navigation li a {
+    padding: 10px 15px 10px 30px;
+    display: block;
+    color: #fff;
+  }
+  
+  .sidebar-navigation li .fa {
+    margin-right: 10px;
+  }
+  
+  .sidebar-navigation li a:active,
+  .sidebar-navigation li a:hover,
+  .sidebar-navigation li a:focus {
+    text-decoration: none;
+    outline: none;
+  }
+  
+  
+  
+  
+  .sidebar-navigation .header {
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #151515;
+    padding: 10px 15px 10px 30px;
+  }
+  
+  
+  
+  .content-container {
+    padding-left: 220px;
+  }
+
+
+  /* CONTENT SIDE BAR */
+  .contentsidebar{
+   margin-top: 40;
+  }
+
+
+  .card-body1 {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    margin-top: 20px;
+    position: absolute;
+}
+
+/* SHOES CARD */
+
+ul {
+  list-style-type: none;
+  margin-left: 37%;
+
+  
+}
+
+
+.fa {
+  color: #f2dd1d;
+  
+}
+
+.card-img-top {
+  width: 100%;
+  height: 225px
+}
+
+.view {
+  background-color: black;
+  margin: 0px
+}
+
+
+.card-footer1 {
+  background-color: #ffffff;
+  font-weight: 700
+}
+
+.price {
+  color: #fcfcfc;
+  font-weight: 600
+}
+
+.card2{
+  width: 80%;
+  
+}
